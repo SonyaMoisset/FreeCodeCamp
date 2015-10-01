@@ -8,7 +8,7 @@ function reverseString(str) {
 reverseString("hello", "");
 
 
-// Solution
+// Solution 1
 
 function reverseString(str) {
   // Step 1. Use the split() method to return a new array.
@@ -27,9 +27,27 @@ function reverseString(str) {
 reverseString("hello", "");
 
 
-// Chaining methods
+// Chaining the three methods together
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
 
 reverseString("hello", "");
+
+
+// Solution 2
+
+function reverseString(str) {
+// Step 1. Create an empty string that will host the new created string
+  var newString = "";
+
+// Step 2. Create the FOR loop 
+  for (var i = str.length - 1; i >= 0; i--) { // The starting point will be the last character of the string
+    newString = newString + str[i]; //or newString += str[i];
+  }
+
+// Step 3. Return the reversed string
+  return newString;
+}
+ 
+reverseString('hello');

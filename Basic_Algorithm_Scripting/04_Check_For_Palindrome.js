@@ -16,7 +16,7 @@ function palindrome(str) {
   // Step 2. Use the chaining methods from 02. Reverse a String
   var reverseStr = regLowStr.split('').reverse().join('');
   
-  // Step 3. Check if reverseString is strictly equals to lowerString 
+  // Step 3. Check if reverseString is strictly equals to regLowStr
   return reverseStr === regLowStr;
 }
 

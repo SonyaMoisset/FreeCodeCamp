@@ -18,8 +18,8 @@ function findLongestWord(str) {
 
   // Step 2. Create a FOR loop
 	for(; i < len; i++){
-		if(longestWord < strSplit[i].length){ // If the longest word is less than the word it is compared with
-		 longestWord = strSplit[i].length; // Then the longest word takes this new value
+		if(strSplit[i].length > longestWord){ // If longestWord is less greater than the word it is compared with
+		 longestWord = strSplit[i].length; // Then longestWord takes this new value
 		}
 	}
 

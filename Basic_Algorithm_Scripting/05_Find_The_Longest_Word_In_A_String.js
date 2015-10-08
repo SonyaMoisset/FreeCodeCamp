@@ -13,8 +13,8 @@ function findLongestWord(str) {
   // Step 1. Declare all the variables
 	var strSplit = str.split(' '); // We use the split() method to get an array of strings
 	var longestWord = 0; // The longest word includes 0 characters at the beginning of the loop
-  var i = 0; // Initiate i
-  var len = strSplit.length; 
+  	var i = 0; // Initiate i
+	var len = strSplit.length; 
 
   // Step 2. Create a FOR loop
 	for(; i < len; i++){

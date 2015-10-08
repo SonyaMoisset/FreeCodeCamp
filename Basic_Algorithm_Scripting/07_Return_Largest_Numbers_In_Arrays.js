@@ -1,4 +1,4 @@
-// 07. TReturn Largest Numbers in Arrays
+// 07. Return Largest Numbers in Arrays
 // Return an array consisting of the largest number from each provided sub-array. 
 
 function largestOfFour(arr) {

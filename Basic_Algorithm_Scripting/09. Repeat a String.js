@@ -1,4 +1,4 @@
-// 08. Repeat a string repeat a string
+// 09. Repeat a string repeat a string
 // Repeat a given string (first argument) n times (second argument)
 
 function repeat(str, num) {

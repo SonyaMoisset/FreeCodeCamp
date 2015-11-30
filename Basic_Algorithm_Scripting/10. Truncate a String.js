@@ -23,6 +23,22 @@ function truncate(str, num) {
   // The 3 dots at the end add to the string length
     str += "..."; // We have substracted 3 in the slice() method to add the 3 dots => "A-tisket..."
   }
+
+// New Solution
+function truncate(str, num) {
+  if (num <= 3) {
+     return str.slice(0, num) + "...";
+  }
+  if (str.length > num) {
+    return str.slice(0, num - 3) + "...";
+  }
+  
+  else {
+    return str;
+  }
+}
+
+truncate("A-tisket a-tasket A green and yellow basket", 11);
   
   // Step 2. Return the string
   return str;

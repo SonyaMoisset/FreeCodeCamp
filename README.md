@@ -1,2 +1,2 @@
 # FreeCodeCamp
-Free Code Camp Baisc & Intermediate Algorithms
+Free Code Camp Basic & Intermediate Algorithms Solutions
